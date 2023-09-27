@@ -1,7 +1,7 @@
 public class BusquedaBinaria {
 
     public static void main(String[] arg){
-        //Arreglo ordenado en orden ascendente
+        //Arreglo en orden ascendente
         int[] arreglo = {1,2,3,4,5,6,7};
         int numero = 2;
         int indiceIzquierda = 0;
@@ -27,7 +27,8 @@ public class BusquedaBinaria {
                 indiceMitad = ((indiceIzquierda+indiceDerecha)/2);
             }
         }
-        System.out.println(encontrado);
+        // System.out.println(encontrado);
+
         if(encontrado)
             System.out.println("El numero " +numero + " se encuentra en el arreglo en la posicion " +indiceMitad);
         else
